@@ -1,0 +1,63 @@
+.modal {
+  width: 600px;
+  margin-top: 20px;
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  z-index: 1;
+}
+
+.pelicula {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.429);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  color: red;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+input {
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+}
+
+.add {
+  background-color: rgb(73, 144, 230);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
